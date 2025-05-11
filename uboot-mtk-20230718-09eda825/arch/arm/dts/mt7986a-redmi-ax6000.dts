@@ -38,10 +38,10 @@
 		};
 
 		layout@1 {
-			label = "immortalwrt-110m";
-			// mtd layout for immortalwrt/openwrt 110M ubi firmware
+			label = "immortalwrt-114m";
+			// mtd layout for immortalwrt/openwrt 114M ubi firmware
 			mtdids = "nmbm0=nmbm0";
-			mtdparts = "nmbm0:1024k(bl2),256k(Nvram),256k(Bdata),2048k(factory),2048k(fip),256k(crash),256k(crash_log),110m(ubi)";
+			mtdparts = "nmbm0:1024k(bl2),256k(Nvram),256k(Bdata),2048k(factory),2048k(fip),117248k(ubi)";
 		};
 	};
 
